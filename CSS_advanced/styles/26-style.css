@@ -254,6 +254,21 @@ a:active + .button {
     text-decoration: var(--button-text-decoration);
 }
 
+.card-testimonial {
+    text-align: center;
+}
+
+.card-testimonial img {
+    border-radius: 50%; 
+    width: 10rem;
+    height: 10rem;
+}
+
+.card-testimonial blockquote cite {
+    display: block;
+    margin-top: 1rem;
+    color: var(--color-primary);
+}
 
 .button:hover {
     color: var(--button-hover-color);
