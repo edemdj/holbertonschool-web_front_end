@@ -173,6 +173,19 @@ ul.row {
     padding: 0;
     list-style: none;
 }
+.col-1-2{
+    width: 50%;
+  }
+  
+  .footer-copyright{
+    margin: 0;
+    font-size: var(--font-size-small);
+    color: var(--text-color);
+  }
+  
+  .footer ul{
+    text-align: right;
+  }
 
 [class^="col-"] {
     float: left;
