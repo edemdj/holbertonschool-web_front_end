@@ -122,6 +122,9 @@ h1, h2, h3, h4, h5, h6{
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
 }
+footer{
+    padding: var(--footer-padding);
+}
 .navbar-menu {
     float: right;
 }
@@ -130,6 +133,7 @@ h1, h2, h3, h4, h5, h6{
 .nav {
     margin: 0;
     padding: 0;
+    list-style: none;
     text-align: center;
 }
   
@@ -142,13 +146,13 @@ h1, h2, h3, h4, h5, h6{
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
 }
-.nav .nav-item .nav-link {
+.nav .nav-link {
     display: block;
     padding: calc(0.5 * 1rem) var(--section-padding) calc(0.5 * 1rem) var(--section-padding);
 }
   
 
-.nav .nav-item .nav-link:hover {
+.nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
 
