@@ -38,22 +38,6 @@
 
 }
 
-.card-services .card-title {
-    margin: 0;
-}
-
-.card-services a {
-    display: block;
-    padding: calc(2 * var(--font-size-medium)) var(--font-size-medium);
-    background-color: var(--color-light-grey);
-}
-
-.card-services a:hover {
-    color: var(--color-white);
-    background-color: var(--color-primary);
-    text-decoration: none;
-}
-
 
 [data-section-theme="dark"] {
     --text-color: var(--color-white);
