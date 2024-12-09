@@ -1,17 +1,8 @@
-// Sass: scss/11-loop_photos.scss 1  SCSS  stylelint
-.photo-julien {
-    background: image-url("photos/julien.jpg") no-repeat;
+// Import the list of names from '11-photos.scss'
+@import '11-photos';
+// use the list of names in a loop
+@each $name in $list-names {
+  .photo-#{$name} {
+    background: image-url("photos/#{$name}.jpg") no-repeat;
   }
-  
-  .photo-john {
-    background: image-url("photos/john.jpg") no-repeat;
-  }
-  
-  .photo-sam {
-    background: image-url("photos/sam.jpg") no-repeat;
-  }
-  
-  .photo-damian {
-    background: image-url("photos/damian.jpg") no-repeat;
-  }
-  
+}
