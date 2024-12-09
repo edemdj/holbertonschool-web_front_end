@@ -1,0 +1,13 @@
+//using mixin for margin property 
+@mixin margin-horizontal($left, $right) {
+    margin-left: $left;
+    margin-right: $right;
+  }
+  
+  body {
+    @include margin-horizontal(10px, 10px);
+  }
+  
+  div {
+    @include margin-horizontal(15px, 15px);
+  }
