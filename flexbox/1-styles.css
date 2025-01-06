@@ -528,3 +528,92 @@
 .services .card-title a:hover {
     color: #007bff;
 }
+
+.works {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.works .section-header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.works .card-work {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.works .card-image img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+}
+
+.works .card-inner {
+    padding: 15px;
+    text-align: center;
+}
+
+.works .card-title a {
+    font-size: 1.2rem;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.works .card-title a:hover {
+    color: #007bff;
+}
+
+.section-about-us {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+}
+
+.section-about-us .section-header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.section-about-us .row {
+    display: flex;
+    align-items: center;
+}
+
+.section-about-us .col-1-2 {
+    width: 50%;
+    padding: 20px;
+}
+
+.section-about-us img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.section-about-us h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.section-about-us .section-footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.section-about-us .button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.section-about-us .button:hover {
+    background-color: #0056b3;
+}
