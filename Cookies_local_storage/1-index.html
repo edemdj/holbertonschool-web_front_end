@@ -1,0 +1,35 @@
+<!-- 1-index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cookies with Expiry</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    input, button {
+      display: block;
+      margin: 10px 0;
+      padding: 8px;
+    }
+
+    p {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Login Form</h1>
+
+  <input type="text" id="firstname" placeholder="First Name">
+  <input type="email" id="email" placeholder="Email">
+
+  <button onclick="setCookies()">Log me in</button>
+  <button onclick="showCookies()">Show the cookies</button>
+
+  <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login and Welcome</title>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    #login-form {
+      display: none;
+    }
+
+    input, button {
+      display: block;
+      margin: 10px 0;
+      padding: 8px;
+    }
+
+    a.logout {
+      font-style: italic;
+      font-weight: normal;
+      margin-left: 10px;
+      cursor: pointer;
+      color: blue;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div id="login-form">
+    <h2>Login Form</h2>
+    <input type="text" id="firstname" placeholder="First Name">
+    <input type="email" id="email" placeholder="Email">
+    <button onclick="setCookiesAndShowWelcomeMessage()">Log me in</button>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
